@@ -1,0 +1,43 @@
+@import './variables';
+
+.custom-shape-divider-top-1606564017 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: $fullWidth;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1606564017 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 58px;
+}
+
+.custom-shape-divider-top-1606564017 .shape-fill {
+    fill:$baseColor;
+}
+
+
+
+.custom-shape-divider1-top-1606563174 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: $fullWidth;
+    overflow: hidden;
+}
+
+.custom-shape-divider1-top-1606563174 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider1-top-1606563174 .shape-fill {
+    fill:$lightColor;
+}

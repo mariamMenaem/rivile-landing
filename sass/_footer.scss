@@ -1,0 +1,91 @@
+@import './variables';
+
+footer {
+    position: relative;
+    padding: 40px 0;
+    background-color: $baseColor;
+    color: $footerColor;
+    p {
+        i {
+            padding: 10px;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        color: $footerColor;
+    }
+    .site-container {
+        margin: 100px auto;
+        .social {
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            i {
+                display: block;
+                width: 50px;
+                height: 50px;
+                line-height: 50px;
+                background-color: $lightColor;
+                text-align: center;
+                margin: 15px;
+                font-size: 26px;
+                border-radius:50%;
+                box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+                &:hover {
+                    background-color: $baseColor;
+                    color: $lightColor;
+                    transform: translateY(-10px);
+                }
+            }
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+
+            p {
+                margin: 15px;
+
+                &:hover {
+                    transform: translateY(-10px);
+                }
+            }
+        }
+
+        ul {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+
+            li {
+                font-weight: bold;
+                margin: 15px;
+
+                &::after {
+                    content: '|';
+                    padding-left: 10px;
+                }
+
+                &:hover {
+                    transform: translateY(-10px);
+                }
+
+                a {
+                    color: $footerColor;
+                }
+            }
+        }
+    }
+
+    .copyright {
+        background-color: $darkBaseColor;
+        width: $fullWidth;
+        padding: 20px;
+        display: flex;
+        justify-content: space-around;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+}

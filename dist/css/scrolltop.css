@@ -1,0 +1,15 @@
+.scrolltop {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  background-color: #6741A6;
+  border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  display: none;
+}
+/*# sourceMappingURL=scrolltop.css.map */

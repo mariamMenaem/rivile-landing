@@ -1,0 +1,41 @@
+@import './variables';
+
+.site-container {
+    max-width:$fullWidth - 10%;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.site-col-2 {
+    flex-basis: $fullWidth - 50%;
+    min-width: 300px;
+}
+
+.site-col-3 {
+    flex-basis: $fullWidth - 70%;
+    min-width: 250px;
+}
+
+.site-col-4 {
+    flex-basis: $fullWidth - 75%;
+    min-width: 200px;
+}
+
+.site-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    h1 {
+        font-size: 50px;
+        line-height: 60px;
+        margin: 25px 0;
+        color: $darkColor;
+    }
+
+    img {
+        width: $fullWidth ;
+    }
+}

@@ -1,0 +1,70 @@
+.service .site-container {
+  max-width: 80%;
+}
+
+.service .site-container .site-col-4 {
+  padding: 10px;
+  margin-bottom: 50px;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.service .site-container .site-col-4:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+
+.service .site-container .site-col-4 h4 {
+  color: #555;
+  font-weight: normal;
+}
+
+.service .site-container .site-col-4 p {
+  font-size: 14px;
+}
+
+.single-service {
+  margin-top: 80px;
+}
+
+.single-service .site-col-2 {
+  padding: 20px;
+}
+
+.single-service .site-col-2 img {
+  padding: 0;
+}
+
+.single-service .site-col-2 h4 {
+  margin: 20px 0;
+  font-size: 22px;
+  font-weight: bold;
+  color: #555;
+}
+
+.single-service .site-col-2 h4 span {
+  font-weight: 500;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.single-service .site-col-2 h3 {
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.single-service .small-img-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.single-service .small-img-row .small-img-col {
+  -ms-flex-preferred-size: 24%;
+      flex-basis: 24%;
+  cursor: pointer;
+}
+/*# sourceMappingURL=service.css.map */
