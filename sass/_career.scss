@@ -1,0 +1,80 @@
+@import './variables';
+
+.careers {
+    margin: 100px 0;
+    color: $darkColor;
+}
+
+.site-accordion {
+    background-color: $baseColor;
+    color: $lightColor;
+    width: 90%;
+    padding: 10px;
+    border: 2px solid rgba($darkColor, .4);
+    cursor: pointer;
+    border-radius: 50px;
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .2);
+
+    .icon {
+        margin: 0 5px 0;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-image: url(../imgs/minus1.png);
+        background-color: #fff;
+        border: 1px solid $lightColor;
+        background-position: center;
+        transition: all .5s ease-in;
+    }
+
+    h2 {
+        margin-left: 5px;
+        text-transform: uppercase;
+        font-weight: normal;
+    }
+}
+
+.site-panel {
+    width: 80%;
+    padding: 0 15px;
+    border-left: 1px solid $baseColor;
+    margin-left: 25px;
+    display: block;
+    text-align: justify;
+    max-height: 500px;
+}
+
+.active {
+    background-color: $lightColor;
+    color: $darkColor;
+
+    .icon {
+        background-image: url(../imgs/plus.png);
+        background-position: center;
+        border-radius: 50%;
+    }
+}
+
+.team {
+    margin: 20px 0;
+
+    .team-box {
+        width: 80%;
+        text-align: left;
+        margin-top: 20px;
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    img {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    }
+}

@@ -42,3 +42,16 @@ $('.small-img-row img').each(function () {
         $('#service-img').attr('src', $(this).attr('src'))
     })
 })
+
+$('.site-accordion').each(function () {
+    $(this).click(function () {
+        $(this).toggleClass('active')
+        panel = $(this).next();
+        if(panel.css('display') == 'block'){
+            panel.slideUp()
+        }else{
+            panel.slideDown()
+        }
+    })
+})
+

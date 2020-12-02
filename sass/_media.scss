@@ -6,11 +6,12 @@
         position: absolute;
         top: 70px;
         left: 0;
-        background-color:$baseColor;
+        background-color: rgba($baseColor,.9);
         width: 100%;
         overflow: hidden;
         transition: all .5s ease-in-out;
-        clip-path:circle(50.2% at 87% 120%);
+        // clip-path: circle(79.3% at 83% 17%);
+        // clip-path:circle(71.2% at 87% 120%);
         transition: all .5s ease-in-out;
         li {
             display: block !important;
@@ -52,6 +53,9 @@
     h1 {
         font-size: 32px !important;
         line-height: 15px;
+    }
+    h2{
+        font-size: 16px !important;
     }
 
     .site-container {

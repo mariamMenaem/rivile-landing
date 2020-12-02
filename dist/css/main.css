@@ -78,13 +78,11 @@
     position: absolute;
     top: 70px;
     left: 0;
-    background-color: #6741A6;
+    background-color: rgba(103, 65, 166, 0.9);
     width: 100%;
     overflow: hidden;
     -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
-    -webkit-clip-path: circle(50.2% at 87% 120%);
-            clip-path: circle(50.2% at 87% 120%);
     transition: all .5s ease-in-out;
   }
   #nav-menu li {
@@ -121,6 +119,9 @@
   h1 {
     font-size: 32px !important;
     line-height: 15px;
+  }
+  h2 {
+    font-size: 16px !important;
   }
   .site-container .social,
   .site-container .contact-info {
@@ -194,6 +195,28 @@
 
 .custom-shape-divider1-top-1606563174 .shape-fill {
   fill: #fff;
+}
+
+.custom-shape-divider2-top-1606819299 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.custom-shape-divider2-top-1606819299 svg {
+  position: relative;
+  display: block;
+  width: calc(112% + 1.3px);
+  height: 217px;
+}
+
+.custom-shape-divider2-top-1606819299 .shape-fill {
+  fill: #6741A6;
 }
 
 .scrolltop {
@@ -362,6 +385,97 @@
   cursor: pointer;
 }
 
+.careers {
+  margin: 100px 0;
+  color: #555;
+}
+
+.site-accordion {
+  background-color: #6741A6;
+  color: #fff;
+  width: 90%;
+  padding: 10px;
+  border: 2px solid rgba(85, 85, 85, 0.4);
+  cursor: pointer;
+  border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.site-accordion .icon {
+  margin: 0 5px 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-image: url(../imgs/minus1.png);
+  background-color: #fff;
+  border: 1px solid #fff;
+  background-position: center;
+  -webkit-transition: all .5s ease-in;
+  transition: all .5s ease-in;
+}
+
+.site-accordion h2 {
+  margin-left: 5px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.site-panel {
+  width: 80%;
+  padding: 0 15px;
+  border-left: 1px solid #6741A6;
+  margin-left: 25px;
+  display: block;
+  text-align: justify;
+  max-height: 500px;
+}
+
+.active {
+  background-color: #fff;
+  color: #555;
+}
+
+.active .icon {
+  background-image: url(../imgs/plus.png);
+  background-position: center;
+  border-radius: 50%;
+}
+
+.team {
+  margin: 20px 0;
+}
+
+.team .team-box {
+  width: 80%;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.team img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
 footer {
   position: relative;
   padding: 40px 0;
@@ -522,12 +636,15 @@ p {
 .header .site-row img {
   max-width: 100%;
   padding: 50px 0;
+  -webkit-clip-path: circle(41.6% at 50% 52%);
+          clip-path: circle(41.6% at 50% 52%);
 }
 
 .navbar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -673,6 +790,18 @@ p {
 
 .contact .contact-form form button {
   border: none;
+  margin-top: 20px;
+}
+
+.about-us {
+  margin-bottom: 100px;
+}
+
+.about-us img {
+  padding: 20px;
+}
+
+.about-us p {
   margin-top: 20px;
 }
 /*# sourceMappingURL=main.css.map */
